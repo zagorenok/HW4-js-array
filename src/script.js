@@ -56,6 +56,12 @@ let arr = [5, 3, 8, 1];
 filterRangeInPlace(arr, 1, 4); 
 console.log(arr); 
 
+console.log('#11');
+
+function deformation (string, separator) {
+  return string.split(separator);
+}
+console.log(deformation('Hello everybody', ', '));
 console.log('#13')
 
 function sumAll(...args) { 
