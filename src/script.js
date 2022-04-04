@@ -62,6 +62,17 @@ function deformation (string, separator) {
   return string.split(separator);
 }
 console.log(deformation('Hello everybody', ', '));
+
+console.log('#12')
+
+function  slArray(arr, startIndex, endIndex) {
+  return arr.slice(startIndex, endIndex)
+}
+let arr3 = [5, 3, 8, 1];
+let range = slArray(arr3, 1, 4);
+console.log(range); 
+console.log(arr3); 
+
 console.log('#13')
 
 function sumAll(...args) { 
